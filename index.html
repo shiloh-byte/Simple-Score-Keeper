@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="block has-text-centered">
+        <h1 class="title">Score Keeper</h1>
+    </div>
+
+    <div class="block card has-text-centered">
+    <div class="block card-image image is-inline-block">
+        <img src="https://cdn.pixabay.com/photo/2016/05/20/21/57/football-1406106_960_720.jpg" alt="sports picture">
+    </div>
+    <div class="block score">
+        <span class="plyr1Score" id="value">0</span>
+        <span class="plyr2Score" id="value">0</span>
+        <p>Use the buttons below to keep score</p>
+    </div>
+    <div class="block dropdown">
+        <p>Playing to: <span class="limit" id="limit">0</span></p>
+     </div>
+     <div class="block">
+        <select class="select" type="dropdown">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="block players">
+        <button class="btn1 btn button is-dark">Player One</button>
+        <button class="btn2 btn button is-dark">Player Two</button>
+        <button class="btn3 btn button is-dark">Reset</button>
+    </div>
+    </div>
+
+    <footer class="credit">Created by: <a href="https://github.com/shiloh-byte">github.com/shiloh-byte</a></footer>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
